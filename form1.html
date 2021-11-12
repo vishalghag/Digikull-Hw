@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaLoon Registration form</title>
+    <style>
+        h1 {
+            color:burlywood;
+        }
+
+        body
+        {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Salo.jpg");
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>Online Appointment Form</center>
+        </h1>
+    </header>
+
+    <div>
+
+        <form>
+
+            <center>
+                <label for="name" style="color: whitesmoke;">Enter Your Name:-</label>
+                <input type="text" id="name">
+                <br>
+                <br>
+
+                <label for="number"  style="color: whitesmoke;">Enter Your Number:-</label>
+                <input type="number" id="number"  max="10" step="10" required>
+                <br>
+                <br>
+
+                <label for="date" style="color: whitesmoke;">Appointment Date:-</label>
+                <input type="date" id="date">
+                <br>
+                <br>
+
+                <label style="color: whitesmoke;">Gender:-</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male" style="color: whitesmoke;">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female" style="color: whitesmoke;">Female</label>
+                <br>
+                <br>
+
+                <label for="refer" style="color: whitesmoke;">Refernce Form:-</label>
+                <select id="refer" name="refer">Choose Name
+                    <option value="Hemanth">Hemanth</option>
+                    <option value="Viraj">Viraj</option>
+                </select>
+                <br>
+                <br>
+
+                <button>Submit</button>
+
+            </center>
+
+
+        </form>
+
+
+
+    </div>
+</body>
+
+</html>
